@@ -1,0 +1,20 @@
+Penerapan Pada Studi Kasus Aplikasi Manajemen Rumah Sakit :
+Inheritence :
+Tenaga Kesehatan sebagai Induk Class, dan juga mewarisi pada Dokter, Perawat, dan Apoteker
+Polimorfisme :
+Pada metode pemeriksaan, seperti pemeriksaan darah,
+pemeriksaan rontgen, dan pemeriksaan jantung, kita dapat membuat metode
+pemeriksaan yang diimplementasikan secara berbeda oleh setiap jenis
+pemeriksaan. Masing-masing akan memiliki cara dan prosedur pemeriksaan
+yang berbeda, meskipun memiliki nama metode yang sama.
+Encapsulation :
+Data pasien disembunyikan dengan menggunakan class
+Pasien, yang menyimpan informasi medis sensitif seperti riwayat penyakit,
+hasil pemeriksaan, dan obat-obatan yang dikonsumsi. Hanya metode khusus
+yang dapat mengakses dan memodifikasi data ini untuk menjaga privasi
+Abstraction :
+Tenaga Kesehatan adalah kelas abstrak yang menyimpan
+metode umum yang harus diimplementasikan oleh setiap tenaga medis,
+seperti tambah pasien dan jadwal pemeriksaan. Setiap subclass seperti
+Dokter atau Perawat akan mengimplementasikan cara spesifik untuk
+menangani operasi tersebut.
